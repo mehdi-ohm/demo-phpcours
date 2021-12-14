@@ -32,7 +32,7 @@ session_start();
 
     Email: <input type="email" name="email" required>
     <br>
-    Pass: <input type="password" name="password" required>
+    Password: <input type="password" name="password" required>
     <br>
     <input type="submit" value="Envoyer">
 
