@@ -31,3 +31,11 @@ function checkAuthAndRedirect()
     exit();
   }
 }
+
+function test()
+{
+  if (!($_SESSION['auth'] ?? false)) {
+    header('Location: index.php');
+    exit();
+  }
+}
